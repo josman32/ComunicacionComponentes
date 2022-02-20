@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Nuevo from '../views/Nuevo.vue'
 import Moneda from '../views/Moneda.vue'
+import EstudianTe from '../views/EstudianTe.vue'
 
 Vue.use(VueRouter)
 
@@ -32,6 +33,11 @@ const routes = [
     name:'Moneda',
     component: Moneda
     
+  },
+  {
+    path:'/estudianTe',
+    name:'EstudianTe',
+    component: EstudianTe
   }
 ]
 

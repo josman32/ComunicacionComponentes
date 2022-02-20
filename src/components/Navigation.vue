@@ -11,6 +11,7 @@
         <b-nav-item to="/about">About</b-nav-item>
         <b-nav-item to="/nuevo">Nuevo</b-nav-item>
         <b-nav-item to="/moneda">Moneda</b-nav-item>
+        <b-nav-item to="/estudianTe">Alumno</b-nav-item>
       </b-navbar-nav>
 
      
